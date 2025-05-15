@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "llama-stack-provider-lightspeed-agent"
+version = "0.1.0"
+description = "Lightspeed agent provider for llama-stack"
+requires-python = ">=3.10"
+dependencies = ["llama-stack", "httpx"]
+
+[tool.setuptools]
+packages = ["llama_stack_provider_lightspeed_agent"]
+
+
