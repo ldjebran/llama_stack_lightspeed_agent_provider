@@ -57,7 +57,7 @@ class LightspeedRemoteAgentProvider(Agents):
 
     def __init__(self, config: LightspeedAgentConfig):
         self.config = config
-        self.lightspeed_agent_url = config.api_url or "http://localhost:8080/agent"
+        self.lightspeed_agent_url = config.api_url
 
     async def initialize(self) -> None:
         pass
